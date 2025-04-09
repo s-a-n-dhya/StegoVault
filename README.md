@@ -1,0 +1,2 @@
+StegoVault is a secure steganography-based desktop application that allows users to hide and extract sensitive text data within image files using RSA encryption. It features user authentication, encrypted file handling, and personalized file management — making it a robust project in the domain of system security. Each user’s files are isolated, and the app ensures confidentiality and integrity by combining steganography with asymmetric cryptography (RSA).
+
