@@ -96,7 +96,7 @@ class StegoVaultApp:
         img_tk = ImageTk.PhotoImage(img)
 
         ctk.CTkLabel(self.root, text="✅ Stego Image Created!", font=ctk.CTkFont(size=18, weight="bold")).pack(pady=10)
-        ctk.CTkLabel(self.root, image=img_tk).pack()
+        ctk.CTkLabel(self.root, image=img_tk, text="").pack()
         self.root.image = img_tk  # prevent garbage collection
 
         ctk.CTkLabel(self.root, text=f"Filename: {random_filename}.png").pack(pady=5)
